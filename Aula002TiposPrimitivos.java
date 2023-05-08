@@ -9,6 +9,8 @@ public class Aula002TiposPrimitivos {
         System.out.println("Double"+ duplo);
         //o float precisa do casting float duplo = 10.10f;
 
+        // double > float
+
         char letra = 'D';
         System.out.println("Char: "+ letra);
 
@@ -26,7 +28,6 @@ public class Aula002TiposPrimitivos {
 
         boolean exboolean = true;
         System.out.println("boolean: "+ exboolean);
-
 
 
     }
