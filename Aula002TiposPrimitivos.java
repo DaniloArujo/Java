@@ -12,6 +12,9 @@ public class Aula002TiposPrimitivos {
         char letra = 'D';
         System.out.println("Char: "+ letra);
 
+        String nome = "Danilo";
+        System.out.println(nome);
+
         byte exbyte = 3;
         System.out.println("Byte: "+exbyte);
 
