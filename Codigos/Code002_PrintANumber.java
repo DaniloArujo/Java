@@ -18,5 +18,6 @@ public class Code002_PrintANumber {
       System.out.println("Hello "+name);
       System.out.println("Yout favorite food is: "+food);
       System.out.println("You are age is: "+ age);
+      scanner.close();
    }
 }

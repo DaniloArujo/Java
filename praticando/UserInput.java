@@ -12,5 +12,6 @@ public class UserInput {
         int age = scanner.nextInt(); scanner.nextLine();
 
         System.out.println("Olá "+name+", você tem "+age+" anos.");
-    }
+        scanner.close();
+    };
 }
