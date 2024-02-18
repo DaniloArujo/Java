@@ -1,6 +1,6 @@
 package Codigos;
 
-public class Code014_Arrays {
+public class Code014_Strings {
     public static void main(String[] args) {
         String[] cars = new String[3];
 
