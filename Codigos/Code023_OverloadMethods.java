@@ -13,8 +13,7 @@ public class Code023_OverloadMethods {
         return a + b + c;
     }
 
-
-
-
-
+    static double add(double a, double b, double c){
+        return a + b + c;
+    }
 }
