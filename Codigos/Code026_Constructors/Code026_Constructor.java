@@ -9,3 +9,4 @@ public class Code026_Constructor {
         human02.eat();;
     }
 }
+ 
