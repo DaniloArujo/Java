@@ -1,0 +1,11 @@
+package Codigos.Code041_StaticKeyword;
+
+public class Friend {
+    String name;
+    static int numberOfFriends;
+
+    Friend(String name){
+        this.name = name;
+        numberOfFriends ++;
+    }
+}
