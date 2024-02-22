@@ -1,5 +1,7 @@
 package Codigos.Code045_Abstraction;
 
-public class Vehicle {
+public abstract class Vehicle {
+    
+    abstract void go();
     
 }
