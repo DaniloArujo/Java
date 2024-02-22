@@ -2,7 +2,7 @@ package Codigos.Code042_Inheritance;
 
 public class Code042Inherithance {
     public static void main(String[] args) {
-        //Processo no qual uma classe adquire os atributos ou metodos de outra classe.
+        // herança - Processo no qual uma classe adquire os atributos ou metodos de outra classe.
 
         Car car = new Car();
         Bicycle bicycle = new Bicycle();
@@ -12,6 +12,8 @@ public class Code042Inherithance {
 
         car.stop();
         bicycle.stop();
+
+        System.out.println(bicycle.pedals);
 
     }
 }
