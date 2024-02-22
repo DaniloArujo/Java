@@ -9,13 +9,10 @@ public class Hero extends Person{
         this.power = power;
     }
 
+    
     @Override
     public String toString() {
-        System.out.println(this.name);
-        
-        System.out.println(this.age);
-        
-        System.out.println(this.power);
-        return super.toString();
+        return super.toString()+this.power;
     }
+
 }

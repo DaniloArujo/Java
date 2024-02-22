@@ -7,7 +7,8 @@ public class Code044_SuperKeyword {
 
         Hero hero1 = new Hero("Batman",42,"Money");
         
-        hero1.toString();
+       System.out.println(hero1);
+        //hero1.toString();
 
     }
 }
