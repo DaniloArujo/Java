@@ -9,5 +9,7 @@ public class Code048_Encapsulation {
 
         //System.out.println(car.year);
         System.out.println(car.getMake());
+
+        //car.model = "Teste";
     }
 }
