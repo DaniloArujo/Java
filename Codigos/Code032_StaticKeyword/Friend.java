@@ -1,4 +1,4 @@
-package Codigos.Code041_StaticKeyword;
+package Codigos.Code032_StaticKeyword;
 
 public class Friend {
     String name;

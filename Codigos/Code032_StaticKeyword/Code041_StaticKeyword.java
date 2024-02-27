@@ -1,4 +1,4 @@
-package Codigos.Code041_StaticKeyword;
+package Codigos.Code032_StaticKeyword;
 
 public class Code041_StaticKeyword {
     public static void main(String[] args) {

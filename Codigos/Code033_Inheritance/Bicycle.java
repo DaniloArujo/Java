@@ -1,4 +1,4 @@
-package Codigos.Code042_Inheritance;
+package Codigos.Code033_Inheritance;
     
 public class Bicycle extends Vehicle{
     int wheels = 2;

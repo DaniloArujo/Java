@@ -1,4 +1,4 @@
-package Codigos.Code040_ObjectPassing;
+package Codigos.Code031_ObjectPassing;
 
 public class Code040_ObjectPassing {
     public static void main(String[] args) {

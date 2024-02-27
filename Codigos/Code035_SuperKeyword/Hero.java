@@ -1,4 +1,4 @@
-package Codigos.Code044_SuperKeyword;
+package Codigos.Code035_SuperKeyword;
 
 public class Hero extends Person{
     String power;

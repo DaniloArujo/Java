@@ -1,4 +1,4 @@
-package Codigos.Code042_Inheritance;
+package Codigos.Code033_Inheritance;
 
 public class Code042Inherithance {
     public static void main(String[] args) {

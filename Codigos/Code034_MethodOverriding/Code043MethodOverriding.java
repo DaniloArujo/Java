@@ -1,4 +1,4 @@
-package Codigos.Code043_MethodOverriding;
+package Codigos.Code034_MethodOverriding;
 
 public class Code043MethodOverriding {
     public static void main(String[] args) {
