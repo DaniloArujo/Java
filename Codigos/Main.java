@@ -2,7 +2,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 abstract class FiguraGeometrica {
-    public abstract String getDescricao( );
+    public abstract String getDescricao();
     public abstract double getArea();
 }
 
@@ -10,7 +10,7 @@ class Retangulo extends FiguraGeometrica {
     private double base;
     private double altura;
 
-    public void setBase(double base){
+    public void setBase(double base) {
         this.base = base;
     }
 
@@ -19,12 +19,12 @@ class Retangulo extends FiguraGeometrica {
     }
 
     @Override
-    public String getDescricao() {
-        return "Retângulo com base " + base + " e altura " + altura;
+    public String getDescricao () {
+        return "Retangulo com base " + base + " e altura " + altura;
     }
 
     @Override
-    public double getArea() {
+    public double getArea(){
         return base * altura;
     }
 }
@@ -42,12 +42,12 @@ class Triangulo extends FiguraGeometrica {
     }
 
     @Override
-    public String getDescricao( ) {
-        return "Triângulo com base " + base + " e altura " + altura;
+    public String getDescricao() {
+        return "Triangulo com base " + base + " e altura " + altura;
     }
 
     @Override
-    public double getArea(){
+    public double getArea () {
         return (base * altura) / 2;
     }
 }
@@ -61,7 +61,7 @@ class Circulo extends FiguraGeometrica {
 
     @Override
     public String getDescricao() {
-        return "Círculo com raio " + raio;
+        return "Circulo com raio " + raio;
     }
 
     @Override
@@ -80,7 +80,7 @@ public class Main {
         triangulo.setBase(4);
         triangulo.setAltura(2.5);
 
-        Circulo circulo = new Circulo();
+        Circulo circulo = new Circulo( );
         circulo.setRaio(2);
 
         // Adiciona as figuras geométricas em uma lista
@@ -92,7 +92,7 @@ public class Main {
         // Mostra dados das figuras geométricas
         for (FiguraGeometrica figuraGeometrica : listaFigurasGeometricas) {
             System.out.println(figuraGeometrica.getDescricao());
-            System.out.printf("Área da figura: %.2f\n", figuraGeometrica.getArea());
+            System.out.printf("Area da figura: %.2f\n", figuraGeometrica.getArea());
         }
     }
 }
